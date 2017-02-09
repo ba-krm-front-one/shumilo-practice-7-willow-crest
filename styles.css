@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1600px;
+    max-height: 1200px;
+    background-color: #ffffff;
+    padding: 130px 100px;
+}
+main {
+    max-width: 1400px;
+    min-width: 1150px;
+    max-height: 940px;
+    box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 140px 100px 130px 123px;
+}
+h1 {
+    display: inline-block;
+    width: 238px;
+    height: 34px;
+    color: #171717;
+    font-family: "Playfair Display";
+    font-size: 42px;
+    font-weight: 400;
+}
+section {
+    max-width: 1141px;
+    height: 500px;
+    margin-top: 39px;
+    margin-bottom: 3px;
+    color: #171717;
+    font-family: Lato Light;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+ }
+.first::first-letter {
+    color: black;
+    float: left;
+    margin: 26px 10px 8px 0;
+    width: 62px;
+    height: 79px;
+    font-family: Playfair Display;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 34px;
+}
+p {
+    line-height: 1.7em;
+    color: #7a7a7a;
+}
+p:nth-child(2) {
+    margin: 35px 0;
+}
+p:last-child {
+    margin-top: 20px;
+    font-family: Myriad Pro;
+    font-style: oblique;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+span {
+    font-size: 2.4em;
+    margin-right:15px;
+}
+button {
+    position: relative;
+    height: 68px;
+    width: 265px;
+    background: rgba(234, 162, 88, 0.1);
+    border: 2px solid #eaa258;
+    color: #eaa258;
+    font-family: "Lato Regular", sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+button:active {
+    background: rgba(234, 162, 88, 0.5);
+}
+
+
